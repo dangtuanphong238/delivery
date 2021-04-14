@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
+    <item  android:gravity="fill_horizontal|fill_vertical">
+        <bitmap
+            android:gravity="fill_horizontal|fill_vertical"
+            android:src="@mipmap/bg_ood" />
+    </item>
+    <item
+        android:width="350dp"
+        android:height="400dp"
+        android:bottom="200dp"
+        android:gravity="center">
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/app_logo" />
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/copyright" />
+    </item>
+    <item
+        android:width="300dp"
+        android:height="50dp"
+        android:gravity="bottom|center">
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/copyright" />
+    </item>
+</layer-list>
